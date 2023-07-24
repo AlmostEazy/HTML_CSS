@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    max-width: 1920px;
+}
+
+.header {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 373px;
+    margin-bottom: 83px;
+    gap: 500px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header__name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__name__colour {
+    color: #F25822;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav__link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__nav__link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__icon {
+    margin-left: -215px;
+    padding-top: 3px;
+}
+
+.top__content {
+    display: flex;
+    gap: 41px;
+    margin-left: 373px;
+}
+
+.top__title {
+    width: 522px;
+    padding-bottom: 17px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.top__subtitle {
+    width: 466px;
+    padding-bottom: 37px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__button__content {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    padding-bottom: 259px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button__info {
+    color: #AAA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.top__logos {
+    margin-left: 345px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 48px;
+}
