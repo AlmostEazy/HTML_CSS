@@ -7,7 +7,7 @@
     max-width: 1920px;
 }
 
-.header {
+.header__inner {
     display: flex;
     margin-top: 40px;
     margin-left: 373px;
