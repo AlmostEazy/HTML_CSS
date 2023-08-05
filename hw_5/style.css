@@ -392,7 +392,6 @@ body {
     .description__text {
         width: 311px;
         height: 92px;
-        display: flex;
     }
 
     .description__img {
