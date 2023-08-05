@@ -172,10 +172,6 @@ body {
 .products {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
-    /* display: grid;
-    justify-content: center;
-    gap: 30px;
-    grid-template-columns: repeat(3, 360px); */
     margin-bottom: 96px;
 }
 
@@ -426,8 +422,6 @@ body {
     .products {
         padding-left: calc(50% - 368px);
         padding-right: calc(50% - 368px);
-        /* gap: 19px;
-        grid-template-columns: repeat(3, 232px); */
         margin-bottom: 110px;
     }
 
