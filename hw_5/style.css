@@ -434,6 +434,7 @@ body {
 .button:hover {
     color: #FFFFFF;
     background: #F16D7F;
+    transition: background-color 1s linear;
 }
 
 .button:active {
@@ -588,6 +589,7 @@ body {
 
 .sub__button:hover {
     background: #E05C6E;
+    transition: background-color .5s linear;
 }
 
 .sub__button:active {
@@ -640,6 +642,7 @@ input::-webkit-input-placeholder {
 
 .link:hover {
     background-color: #F16D7F;
+    transition: background-color 1s linear;
 }
 
 .rights {
