@@ -163,6 +163,10 @@ body {
             background-color: rgba(42, 42, 42, 0.15);
             @include justify_align_center ();
 
+            &:hover {
+                cursor: pointer;
+            }
+
             &:hover path {
                 fill: $pink;
             }
@@ -173,6 +177,10 @@ body {
             height: 47px;
             background-color: rgba(42, 42, 42, 0.15);
             @include justify_align_center ();
+
+            &:hover {
+                cursor: pointer;
+            }
 
             &:hover path {
                 fill: $pink;
@@ -240,14 +248,19 @@ body {
             padding-bottom: 48.5px;
 
             .choose__option {
-                a {
-                    @include align_center ();
-                    gap: 9px;
-                    text-decoration: none;
-                }
-                
+                @include align_center ();
+                gap: 9px;
+
                 .choose__text {
                     @include font (#6F6E6E, 14px, 400);
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                &:hover path {
+                    fill: $pink;
                 }
             }
         }

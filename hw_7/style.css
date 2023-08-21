@@ -179,6 +179,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.description .description__arrows .arrow__left:hover {
+  cursor: pointer;
+}
 .description .description__arrows .arrow__left:hover path {
   fill: #F16D7F;
 }
@@ -189,6 +192,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.description .description__arrows .arrow__right:hover {
+  cursor: pointer;
 }
 .description .description__arrows .arrow__right:hover path {
   fill: #F16D7F;
@@ -266,11 +272,10 @@ body {
   width: 33%;
   padding-bottom: 48.5px;
 }
-.collections .collections__description .choose__menu .choose__option a {
+.collections .collections__description .choose__menu .choose__option {
   display: flex;
   align-items: center;
   gap: 9px;
-  text-decoration: none;
 }
 .collections .collections__description .choose__menu .choose__option .choose__text {
   color: #6F6E6E;
@@ -278,6 +283,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.collections .collections__description .choose__menu .choose__option:hover {
+  cursor: pointer;
+}
+.collections .collections__description .choose__menu .choose__option:hover path {
+  fill: #F16D7F;
 }
 .collections .collections__description .collection__button .buy__button {
   display: flex;
