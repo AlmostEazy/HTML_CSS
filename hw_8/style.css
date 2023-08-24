@@ -256,8 +256,7 @@ body {
 .sort__filter .sort {
   display: flex;
   gap: 28px;
-  position: relative;
-  top: 51px;
+  padding-top: 51px;
 }
 .sort__filter .sort__items {
   position: relative;
@@ -344,7 +343,7 @@ body {
 .items {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
-  margin-bottom: 128px;
+  margin-bottom: 49px;
 }
 .items .items__wrap {
   display: grid;
@@ -456,6 +455,81 @@ body {
 }
 .hov__button:active {
   transform: scale(0.95);
+}
+
+.features__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #222224;
+}
+.features__items .feature {
+  width: 360px;
+  padding: 104px 0;
+}
+.features__items .feature .feature__img {
+  padding-bottom: 19px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features__items .feature .features__title {
+  padding-bottom: 16px;
+  text-align: center;
+  color: #FBFBFB;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.features__items .feature .features__subtitle {
+  text-align: center;
+  color: #FBFBFB;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 97px;
+}
+.pagination .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  list-style: none;
+  width: 283px;
+  height: 43px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+}
+.pagination .page__btn {
+  display: flex;
+}
+.pagination .page__btn:hover {
+  cursor: pointer;
+}
+.pagination .page__btn:hover path {
+  fill: #EF5B70;
+}
+.pagination .page__number {
+  color: #C4C4C4;
+}
+.pagination .page__number a {
+  text-decoration: none;
+  color: #C4C4C4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.pagination .page__number a:hover {
+  color: #EF5B70;
 }
 
 .reviews__items {
