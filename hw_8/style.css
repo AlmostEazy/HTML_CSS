@@ -162,18 +162,37 @@ body {
 }
 .sort__filter__items .filter__item {
   width: 360px;
-  height: 40px;
+  height: 132px;
   position: relative;
 }
 .sort__filter__items .filter__item .filter {
   position: absolute;
   z-index: 1;
-  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 16px;
+  top: 39px;
 }
 .sort__filter__items .filter__item .filter[open] {
   background-color: white;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
-  padding: 13px 16px 16px;
+  padding-left: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.sort__filter__items .filter__item .filter[open] .filter__title {
+  color: #EF5B70;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sort__filter__items .filter__item .filter[open] .filter__category__summary {
+  padding: 8px 11px 11px;
+  border-left: 5px solid #F16D7F;
+  border-bottom: 1px solid #EBEBEB;
+}
+.sort__filter__items .filter__item .filter[open] svg path {
+  fill: #EF5B70;
 }
 .sort__filter__items .filter__item .filter__summary {
   display: flex;
@@ -183,17 +202,84 @@ body {
 .sort__filter__items .filter__item .filter__summary::-webkit-details-marker {
   display: none;
 }
+.sort__filter__items .filter__item .filter__summary:hover {
+  cursor: pointer;
+}
+.sort__filter__items .filter__item .filter__summary .filter__title {
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sort__filter__items .filter__item .filter__category {
+  margin-top: 16px;
+}
+.sort__filter__items .filter__item .filter__category__summary {
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+}
+.sort__filter__items .filter__item .filter__category__summary:hover {
+  cursor: pointer;
+}
+.sort__filter__items .filter__item .filter__category[open] .filter__category__summary {
+  color: #EF5B70;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__filter__items .filter__item .filter__category[open] .filter__category__items {
+  padding-top: 24px;
+  padding-left: 17px;
+}
+.sort__filter__items .filter__item .filter__category__items {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.sort__filter__items .filter__item .filter__category__items .filter__link {
+  text-decoration: none;
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__filter__items .filter__item .filter__category__items .filter__link:hover {
+  color: #EF5B70;
+}
 .sort__filter .sort {
   display: flex;
   gap: 28px;
+  position: relative;
+  top: 51px;
 }
 .sort__filter .sort__items {
   position: relative;
+}
+.sort__filter .sort__items[open] path {
+  fill: #EF5B70;
 }
 .sort__filter .sort__items .sort__summary {
   display: flex;
   align-items: center;
   gap: 10px;
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__filter .sort__items .sort__summary:hover {
+  cursor: pointer;
+}
+.sort__filter .sort__items .sort__summary:hover path {
+  fill: #EF5B70;
 }
 .sort__filter .sort__items .sort__item__category {
   position: absolute;
@@ -210,6 +296,26 @@ body {
 }
 .sort__filter .sort__items .sort__item__category .sort__link {
   text-decoration: none;
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__filter .sort__items .sort__item__category .sort__link:hover {
+  color: #EF5B70;
+}
+.sort__filter .sort__items .sort__item__category .sort__label {
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 9px;
+}
+.sort__filter .sort__items .sort__item__category .sort__label input:hover {
+  cursor: pointer;
 }
 
 .featured__items__text {
@@ -251,6 +357,21 @@ body {
 }
 .items .items__wrap .item .item__img {
   height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items .items__wrap .item .item__img__2 {
+  height: 420px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items .items__wrap .item .item__img__2 .temp {
+  width: 360px;
+  height: 420px;
+  background-color: #F7E4E2;
   display: flex;
   justify-content: center;
   align-items: center;
