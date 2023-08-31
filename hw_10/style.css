@@ -140,7 +140,7 @@ body {
   margin-bottom: 96px;
 }
 .description__cart-left {
-  width: 22.5%;
+  width: 360px;
 }
 .description__cart-left .name {
   display: flex;
