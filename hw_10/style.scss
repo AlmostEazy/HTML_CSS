@@ -131,7 +131,7 @@ body {
     margin-bottom: 96px;
 
     &-left {
-        width: 360px;
+        width: 22.5%;
 
         .name {
             display: flex;
@@ -192,7 +192,7 @@ body {
                 cursor: pointer;
                 margin-bottom: 33px;
 
-                &:first-child {
+                &:not(:last-child) {
                     margin-right: 20px;
                 }
 
@@ -254,7 +254,7 @@ body {
     }
 
     &-right {
-        width: 652px;
+        width: 40.75%;
 
         h2 {
             @include font (black, 24px, 300);

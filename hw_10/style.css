@@ -140,7 +140,7 @@ body {
   margin-bottom: 96px;
 }
 .description__cart-left {
-  width: 360px;
+  width: 22.5%;
 }
 .description__cart-left .name {
   display: flex;
@@ -209,7 +209,7 @@ body {
   cursor: pointer;
   margin-bottom: 33px;
 }
-.description__cart-left fieldset .radiobtn:first-child {
+.description__cart-left fieldset .radiobtn:not(:last-child) {
   margin-right: 20px;
 }
 .description__cart-left fieldset .radiobtn .radio {
@@ -270,7 +270,7 @@ body {
   transform: scale(0.95);
 }
 .description__cart-right {
-  width: 652px;
+  width: 40.75%;
 }
 .description__cart-right h2 {
   color: black;
