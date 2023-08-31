@@ -137,12 +137,13 @@ body {
   margin-bottom: 128px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 8%;
 }
 .description__cart__products {
   display: flex;
   flex-direction: column;
-  width: 40.75%;
+  width: 652px;
 }
 .description__cart__products-items {
   display: flex;
@@ -239,7 +240,7 @@ body {
 .description__cart__products-buttons button:hover {
   color: white;
   background: #F16D7F;
-  transition: background-color 1s linear;
+  transition: background-color 1s linear, color 0.5s linear;
   border: none;
 }
 .description__cart__products-buttons button:active {
@@ -252,7 +253,7 @@ body {
   width: 225px;
 }
 .description__cart__purchase {
-  width: 22.5%;
+  width: 360px;
   display: flex;
   flex-direction: column;
   gap: 57.5px;
@@ -277,7 +278,7 @@ body {
 }
 .description__cart__purchase form label input {
   height: 43px;
-  color: black;
+  color: #F16D7F;
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
@@ -309,7 +310,7 @@ body {
 .description__cart__purchase form button:hover {
   color: white;
   background: #F16D7F;
-  transition: background-color 1s linear;
+  transition: background-color 1s linear, color 0.5s linear;
   border: none;
 }
 .description__cart__purchase form button:active {
@@ -377,7 +378,7 @@ body {
 .description__cart__purchase-payment button:hover {
   color: #F16D7F;
   background: white;
-  transition: background-color 1s linear;
+  transition: background-color 1s linear, color 1s linear;
   border: 1px solid;
 }
 .description__cart__purchase-payment button:active {
