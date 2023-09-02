@@ -140,7 +140,7 @@ body {
 
 .description {
     background-color:#F7F7F7;
-    height: 775px;
+    height: 773px;
     border: solid 1px;
     border-color: #EAEAEA;
     @include justify_align_center ();
@@ -211,7 +211,7 @@ body {
         }
 
         .devider {
-            width: 5.5%;
+            width: 63px;
             height: 3px;
             background-color: #EF5B70;
             margin-bottom: 12px;
@@ -223,7 +223,7 @@ body {
         }
 
         .collection__subtitle {
-            width: 48.7%;
+            width: 554px;
             text-align: center;
             @include font (#5E5E5E, 14px, 300);
             padding-bottom: 32px;
@@ -235,7 +235,7 @@ body {
         }
 
         .long__devider {
-            width: 56.2%;
+            width: 641px;
             height: 1px;
             background-color: #EAEAEA;
             margin-bottom: 65px;
@@ -244,7 +244,7 @@ body {
         .choose__menu {
             @include justify_align_center ();
             gap: 6%;
-            width: 33%;
+            width: 374px;
             padding-bottom: 48.5px;
 
             .choose__option {
@@ -327,17 +327,20 @@ body {
     margin-bottom: 128px;
     
     .items__wrap {
-        display: grid;
-        grid-gap: 30px;
-        grid-template-columns: repeat(auto-fit, 360px);
+        display: flex;
+        gap: 2.6%;
         justify-content: center;
         
         .item {
-            width: 360px;
+            width: 31.6%;
 
             .item__img {
-                height: 420px;
+                width: 100%;
                 @include justify_align_center ();
+
+                .img__hover {
+                    width: 100%;
+                }
             }
             
             .item__description {
@@ -358,7 +361,7 @@ body {
                     
                     .item__subtitle {
                         @include font (#5D5D5D, 14px, 300);
-                        width: 315px;
+                        width: 91.6%;
                     }
                     
                     .item__price {
@@ -581,3 +584,7 @@ input::-webkit-input-placeholder {
         fill: white;
     }
 }
+
+@import './helper/media_1024.scss';
+
+@import './helper/media_767.scss';
