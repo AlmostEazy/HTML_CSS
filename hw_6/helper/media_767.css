@@ -103,6 +103,12 @@
   .reviews__items .rev__item {
     gap: 59px;
   }
+  .reviews__items .rev__item .feedback .feedback__text {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text .text__ital {
+    font-size: 18px;
+  }
   .reviews__items .rev__item .subscribe {
     gap: 22px;
   }

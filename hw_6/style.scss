@@ -172,24 +172,32 @@ body {
         grid-gap: 30px;
 
         .products__little__one {
-            @include products_items (360px, 260px);
+            @include products_items (100%, 260px);
             background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(img/Layer_43.png);
+            background-size: cover;
+            background-position: center;
         }
         
         .products__little__two {
-            @include products_items (360px, 260px);
+            @include products_items (100%, 260px);
             background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(img/Rectangle_30.png);
+            background-size: cover;
+            background-position: center;
         }
         
         .products__little__three {
-            @include products_items (360px, 260px);
+            @include products_items (100%, 260px);
             background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(img/Rectangle_31.png);
+            background-size: cover;
+            background-position: center;
         }
 
         .products__big {
-            @include products_items (1140px, 180px);
+            @include products_items (100%, 180px);
             background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(img/Rectangle_20.png);
             grid-column-start: span 3;
+            background-size: cover;
+            background-position: center;
         }
     }
 }

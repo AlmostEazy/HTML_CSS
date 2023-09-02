@@ -27,7 +27,6 @@
 @mixin products_items ($width, $height) {
     width: $width;
     height: $height;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
