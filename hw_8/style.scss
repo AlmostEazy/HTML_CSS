@@ -162,7 +162,7 @@ body {
                     box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
                     padding-left: 16px;
                     padding-right: 16px;
-                    width: 100%;
+                    width: 360px;
                     box-sizing: border-box;
 
                     .filter__title {
@@ -238,66 +238,66 @@ body {
                 }
             }
         }
-    }
 
-    .sort {
-        display: flex;
-        gap: 28px;
-        padding-top: 51px;
-
-        &__items {
-            position: relative;
-
-            &[open] {
-                path {
-                    fill: #EF5B70;
-                }
-            }
-
-            .sort__summary {
-                @include align_center ();
-                gap: 10px;
-                @include font (#6F6E6E, 14px, 400);
-
-                &:hover {
-                    cursor: pointer;
-                }
-
-                &:hover path {
-                    fill: #EF5B70;
-                }
-            }
-
-            .sort__item__category {
-                position: absolute;
-                display: flex;
-                flex-direction: column;
-                gap: 6px;
-                width: 70px;
-                background-color: white;
-                box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
-                padding: 6px 0 12px 9px;
-                z-index: 1;
-                top: 25px;;
-                left: -9px;
-
-                .sort__link {
-                    text-decoration: none;
-                    @include font (#6F6E6E, 14px, 400);
-
-                    &:hover {
-                        color: #EF5B70;
+        .sort {
+            display: flex;
+            gap: 28px;
+            padding-top: 51px;
+    
+            &__items {
+                position: relative;
+    
+                &[open] {
+                    path {
+                        fill: #EF5B70;
                     }
                 }
-
-                .sort__label {
+    
+                .sort__summary {
+                    @include align_center ();
+                    gap: 10px;
                     @include font (#6F6E6E, 14px, 400);
+    
+                    &:hover {
+                        cursor: pointer;
+                    }
+    
+                    &:hover path {
+                        fill: #EF5B70;
+                    }
+                }
+    
+                .sort__item__category {
+                    position: absolute;
                     display: flex;
-                    gap: 9px;
-
-                    input {
+                    flex-direction: column;
+                    gap: 6px;
+                    width: 70px;
+                    background-color: white;
+                    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+                    padding: 6px 0 12px 9px;
+                    z-index: 1;
+                    top: 25px;;
+                    left: -9px;
+    
+                    .sort__link {
+                        text-decoration: none;
+                        @include font (#6F6E6E, 14px, 400);
+    
                         &:hover {
-                            cursor: pointer;
+                            color: #EF5B70;
+                        }
+                    }
+    
+                    .sort__label {
+                        @include font (#6F6E6E, 14px, 400);
+                        display: flex;
+                        gap: 9px;
+    
+                        input {
+                            &:hover {
+                                cursor: pointer;
+                            }
                         }
                     }
                 }
@@ -305,8 +305,6 @@ body {
         }
     }
 }
-
-
 
 .featured__items__text {
     @include justify_align_center ();
@@ -446,7 +444,7 @@ body {
         gap: 19px;
         list-style: none;
         width: 283px;
-        height: 43px;
+        height: 41px;
         border: 1px solid #EBEBEB;
         border-radius: 4px;
 
@@ -665,3 +663,7 @@ input::-webkit-input-placeholder {
         fill: white;
     }
 }
+
+@import './helper/media_1024.scss';
+
+@import './helper/media_767.scss';

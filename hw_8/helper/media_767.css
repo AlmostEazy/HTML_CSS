@@ -8,77 +8,66 @@
   .basket {
     display: none;
   }
-  .description .description__img {
+  .page__nav {
+    flex-direction: column;
+    gap: 21.6%;
+    justify-content: initial;
+  }
+  .page__nav .current__page {
+    width: auto;
+    padding-top: 24px;
+  }
+  .sort__filter__items {
+    width: 360px;
+  }
+  .sort__filter__items .filter__item .filter__summary {
+    gap: 0px;
+  }
+  .sort__filter__items .filter__item .filter__summary .filter__title {
     display: none;
   }
-  .description .description__text {
-    padding-top: 0;
-    width: 100%;
-    height: 363px;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+  .sort__filter__items .filter__item .filter__summary svg {
+    width: 37.5px;
+    height: 25px;
   }
-  .description .description__text .main__title .title {
-    font-size: 38px;
+  .sort__filter__items .sort {
+    gap: 24px;
   }
-  .description .description__text .main__title .lux {
-    font-size: 20px;
+  .sort__filter__items .sort .sort__items .sort__summary {
+    font-size: 12px;
   }
-  .description .description__text .main__title .lux .fashion {
-    font-size: 20px;
+  .sort__filter__items .sort .sort__items .sort__item__category {
+    width: 60px;
   }
-  .description .description__text .rect {
-    height: 61px;
+  .sort__filter__items .sort .sort__items:first-child {
+    width: 116px;
   }
-  .products .prod__items .products__little__one {
-    width: 344px;
-    height: 249px;
+  .items .items__wrap {
+    grid-template-columns: repeat(1, 360px);
   }
-  .products .prod__items .products__little__two {
-    width: 344px;
-    height: 249px;
+  .features__items {
+    gap: 47px;
   }
-  .products .prod__items .products__little__three {
-    width: 344px;
-    height: 249px;
-  }
-  .products .prod__items .products__big {
-    width: 344px;
-    height: 111px;
-    grid-column-start: auto;
-  }
-  .products {
-    padding-left: calc(50% - 172px);
-    padding-right: calc(50% - 172px);
-    margin-bottom: 64px;
-  }
-  .products .prod__items {
-    grid-gap: 32px;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .featured__items__text {
-    margin-bottom: 65px;
-  }
-  .items {
-    padding-left: calc(50% - 180px);
-    padding-right: calc(50% - 180px);
-    margin-bottom: 41px;
-  }
-  .items__button {
-    margin-bottom: 96px;
-  }
-  .footer__inner {
-    flex-direction: column-reverse;
-    gap: 40px;
-    height: 143px;
-    justify-content: normal;
+  .features__items .feature:last-child {
+    padding-bottom: 81px;
   }
   .reviews__items {
     height: 550px;
   }
-  .footer__inner .rights {
-    padding-bottom: 9px;
+  .reviews__items .rev__back {
+    height: 550px;
+  }
+  .reviews__items .rev__item {
+    gap: 59px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text .text__ital {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .subscribe {
+    gap: 22px;
   }
   .reviews__items .rev__item .subscribe .review__btn {
     width: 341px;
@@ -95,21 +84,13 @@
     font-size: 14px;
     line-height: 153%;
   }
-  .reviews__items .rev__back {
-    width: auto;
-    height: 550px;
-    margin: 0 -420px;
+  .footer__inner {
+    flex-direction: column-reverse;
+    gap: 40px;
+    height: 143px;
+    justify-content: normal;
   }
-  .reviews__items .rev__item {
-    gap: 59px;
-  }
-  .reviews__items .rev__item .subscribe {
-    gap: 22px;
-  }
-  .features__items {
-    gap: 47px;
-  }
-  .features__items .feature:last-child {
-    padding-bottom: 81px;
+  .footer__inner .rights {
+    padding-bottom: 24px;
   }
 }/*# sourceMappingURL=media_767.css.map */
