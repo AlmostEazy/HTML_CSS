@@ -811,9 +811,7 @@ input::-webkit-input-placeholder {
     line-height: 153%;
   }
   .reviews__items .rev__back {
-    width: auto;
     height: 550px;
-    margin: 0 -420px;
   }
   .reviews__items .rev__item {
     gap: 59px;
