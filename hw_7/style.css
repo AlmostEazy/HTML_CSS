@@ -780,7 +780,7 @@ input::-webkit-input-placeholder {
   }
   .footer__inner {
     flex-direction: column-reverse;
-    gap: 40px;
+    gap: 25px;
     height: 143px;
     justify-content: normal;
   }
