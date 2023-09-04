@@ -35,15 +35,14 @@
             width: 734px;
             gap: 15px;
 
-            form {
-                width: 360px;
-
-                label {
-                    h2 {
+            .get {
+                form {
+                    label:first-child {
                         margin-top: auto;
                     }
                 }
             }
+
 
             &-payment {
                 width: 360px;

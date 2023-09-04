@@ -78,7 +78,7 @@
     width: 360px;
     gap: 48px;
   }
-  .description__cart__purchase form button {
+  .description__cart__purchase .get button {
     text-transform: capitalize;
   }
   .description__cart__purchase-payment {
