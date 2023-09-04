@@ -128,7 +128,6 @@ body {
 .description__cart {
     margin-bottom: 128px;
     @include justify_center ();
-    flex-wrap: wrap;
     gap: 8%;
     
     &__products {
@@ -224,6 +223,7 @@ body {
                 height: 50px;
                 width: 235px;
                 cursor: pointer;
+                text-transform: uppercase;
                 
                 &:hover {
                     color: white;
@@ -294,6 +294,7 @@ body {
                 border: 1px solid #A4A4A4;
                 background: none;
                 cursor: pointer;
+                text-transform: uppercase;
 
                 &:hover {
                     color: white;
@@ -537,3 +538,7 @@ body {
         fill: white;
     }
 }
+
+@import './helper/media_1024.scss';
+
+@import './helper/media_767.scss';
