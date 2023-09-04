@@ -28,10 +28,7 @@
     width: 734px;
     gap: 15px;
   }
-  .description__cart__purchase form {
-    width: 360px;
-  }
-  .description__cart__purchase form label h2 {
+  .description__cart__purchase .get form label:first-child {
     margin-top: auto;
   }
   .description__cart__purchase-payment {

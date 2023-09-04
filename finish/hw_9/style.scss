@@ -252,22 +252,23 @@ body {
         flex-direction: column;
         gap: 57.5px;
 
-        form {
+        .get {
             display: flex;
             flex-direction: column;
             gap: 23px;
 
-            label {
+            form {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
 
-                h2 {
+                label:first-child {
                     @include font (#222, 16px, 300);
                     margin-top: 16px;
                 }
 
                 input {
+                    width: 341px;
                     height: 43px;
                     @include font ($pink, 13px, 300);
                     font-family: 'Lato', sans-serif;

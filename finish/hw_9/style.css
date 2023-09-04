@@ -258,17 +258,17 @@ body {
   flex-direction: column;
   gap: 57.5px;
 }
-.description__cart__purchase form {
+.description__cart__purchase .get {
   display: flex;
   flex-direction: column;
   gap: 23px;
 }
-.description__cart__purchase form label {
+.description__cart__purchase .get form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.description__cart__purchase form label h2 {
+.description__cart__purchase .get form label:first-child {
   color: #222;
   font-size: 16px;
   font-style: normal;
@@ -276,7 +276,8 @@ body {
   line-height: normal;
   margin-top: 16px;
 }
-.description__cart__purchase form label input {
+.description__cart__purchase .get form input {
+  width: 341px;
   height: 43px;
   color: #F16D7F;
   font-size: 13px;
@@ -288,13 +289,13 @@ body {
   outline: none;
   padding-left: 17px;
 }
-.description__cart__purchase form label input::-webkit-input-placeholder {
+.description__cart__purchase .get form input::-webkit-input-placeholder {
   color: #222224;
 }
-.description__cart__purchase form label .input__first::-webkit-input-placeholder {
+.description__cart__purchase .get form .input__first::-webkit-input-placeholder {
   color: #B1B1B1;
 }
-.description__cart__purchase form button {
+.description__cart__purchase .get button {
   width: 101px;
   height: 35px;
   color: #4A4A4A;
@@ -308,13 +309,13 @@ body {
   cursor: pointer;
   text-transform: uppercase;
 }
-.description__cart__purchase form button:hover {
+.description__cart__purchase .get button:hover {
   color: white;
   background: #F16D7F;
   transition: background-color 1s linear, color 0.5s linear;
   border: none;
 }
-.description__cart__purchase form button:active {
+.description__cart__purchase .get button:active {
   color: white;
   background: #F16D7F;
   border: none;
@@ -573,10 +574,7 @@ body {
     width: 734px;
     gap: 15px;
   }
-  .description__cart__purchase form {
-    width: 360px;
-  }
-  .description__cart__purchase form label h2 {
+  .description__cart__purchase .get form label:first-child {
     margin-top: auto;
   }
   .description__cart__purchase-payment {
@@ -697,7 +695,7 @@ body {
     width: 360px;
     gap: 48px;
   }
-  .description__cart__purchase form button {
+  .description__cart__purchase .get button {
     text-transform: capitalize;
   }
   .description__cart__purchase-payment {
