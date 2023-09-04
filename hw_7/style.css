@@ -774,9 +774,7 @@ input::-webkit-input-placeholder {
     font-size: 18px;
   }
   .reviews__items .rev__back {
-    width: auto;
     height: 550px;
-    margin: 0 -420px;
   }
   .footer__inner {
     flex-direction: column-reverse;
