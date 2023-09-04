@@ -1,0 +1,129 @@
+@media (max-width: 767px) {
+  .header__inner {
+    gap: 53%;
+  }
+  .login {
+    display: none;
+  }
+  .basket {
+    display: none;
+  }
+  .page__nav {
+    margin-bottom: 39px;
+    justify-content: center;
+  }
+  .page__nav .current__page {
+    padding-left: initial;
+    width: auto;
+  }
+  .description__cart {
+    gap: 48px;
+    margin-bottom: 96px;
+  }
+  .description__cart__products {
+    width: 360px;
+  }
+  .description__cart__products-items {
+    margin-bottom: 30px;
+  }
+  .description__cart__products-items-item img {
+    width: 144px;
+    height: 188px;
+  }
+  .description__cart__products-items-item-info {
+    padding-top: 14px;
+  }
+  .description__cart__products-items-item-info h1 {
+    font-size: 16px;
+    padding-bottom: 26px;
+  }
+  .description__cart__products-items-item-info h3:not(:last-child) {
+    padding-bottom: 4px;
+  }
+  .description__cart__products-items-item-info h3 {
+    font-size: 14px;
+  }
+  .description__cart__products-items-item-info h3 input {
+    width: 13px;
+    height: 13px;
+    padding-left: 9px;
+    font-size: 10px;
+  }
+  .description__cart__products-items-item button {
+    position: absolute;
+    top: 17px;
+    right: 12px;
+    height: 10px;
+  }
+  .description__cart__products-items-item button svg {
+    width: 10px;
+    height: 10px;
+  }
+  .description__cart__products-buttons {
+    justify-content: center;
+    gap: 9px;
+  }
+  .description__cart__products-buttons button {
+    width: 175px;
+    height: 33px;
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+  .description__cart__products-buttons button:last-child {
+    width: 175px;
+    height: 33px;
+  }
+  .description__cart__purchase {
+    flex-direction: column;
+    width: 360px;
+    gap: 48px;
+  }
+  .description__cart__purchase form button {
+    text-transform: capitalize;
+  }
+  .description__cart__purchase-payment {
+    margin-top: auto;
+  }
+  .reviews__items {
+    height: 550px;
+  }
+  .reviews__items .rev__item {
+    gap: 59px;
+  }
+  .reviews__items .rev__item .subscribe {
+    gap: 22px;
+  }
+  .reviews__items .rev__item .subscribe .review__btn {
+    width: 341px;
+    height: 47px;
+  }
+  .reviews__items .rev__item .subscribe .review__btn .subscribe__button .sub__button {
+    width: 96px;
+    height: 47px;
+  }
+  .reviews__items .rev__item .subscribe .subscribe__text .sub__title {
+    line-height: 153%;
+  }
+  .reviews__items .rev__item .subscribe .subscribe__text .sub__subtitle {
+    font-size: 14px;
+    line-height: 153%;
+  }
+  .reviews__items .rev__item .feedback .feedback__text {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text .text__ital {
+    font-size: 18px;
+  }
+  .reviews__items .rev__back {
+    height: 550px;
+  }
+  .footer__inner {
+    flex-direction: column-reverse;
+    gap: 25px;
+    height: 143px;
+    justify-content: normal;
+  }
+  .footer__inner .rights {
+    padding-bottom: 24px;
+  }
+}/*# sourceMappingURL=media_767.css.map */

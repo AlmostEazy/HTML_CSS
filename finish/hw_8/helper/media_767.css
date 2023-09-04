@@ -1,0 +1,96 @@
+@media (max-width: 767px) {
+  .header__inner {
+    gap: 53%;
+  }
+  .login {
+    display: none;
+  }
+  .basket {
+    display: none;
+  }
+  .page__nav {
+    flex-direction: column;
+    gap: 21.6%;
+    justify-content: initial;
+  }
+  .page__nav .current__page {
+    width: auto;
+    padding-top: 24px;
+  }
+  .sort__filter__items {
+    width: 360px;
+  }
+  .sort__filter__items .filter__item .filter__summary {
+    gap: 0px;
+  }
+  .sort__filter__items .filter__item .filter__summary .filter__title {
+    display: none;
+  }
+  .sort__filter__items .filter__item .filter__summary svg {
+    width: 37.5px;
+    height: 25px;
+  }
+  .sort__filter__items .sort {
+    gap: 24px;
+  }
+  .sort__filter__items .sort .sort__items .sort__summary {
+    font-size: 12px;
+  }
+  .sort__filter__items .sort .sort__items .sort__item__category {
+    width: 60px;
+  }
+  .sort__filter__items .sort .sort__items:first-child {
+    width: 116px;
+  }
+  .items .items__wrap {
+    grid-template-columns: repeat(1, 360px);
+  }
+  .features__items {
+    gap: 47px;
+  }
+  .features__items .feature:last-child {
+    padding-bottom: 81px;
+  }
+  .reviews__items {
+    height: 550px;
+  }
+  .reviews__items .rev__back {
+    height: 550px;
+  }
+  .reviews__items .rev__item {
+    gap: 59px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text .text__ital {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .subscribe {
+    gap: 22px;
+  }
+  .reviews__items .rev__item .subscribe .review__btn {
+    width: 341px;
+    height: 47px;
+  }
+  .reviews__items .rev__item .subscribe .review__btn .subscribe__button .sub__button {
+    width: 96px;
+    height: 47px;
+  }
+  .reviews__items .rev__item .subscribe .subscribe__text .sub__title {
+    line-height: 153%;
+  }
+  .reviews__items .rev__item .subscribe .subscribe__text .sub__subtitle {
+    font-size: 14px;
+    line-height: 153%;
+  }
+  .footer__inner {
+    flex-direction: column-reverse;
+    gap: 40px;
+    height: 143px;
+    justify-content: normal;
+  }
+  .footer__inner .rights {
+    padding-bottom: 24px;
+  }
+}/*# sourceMappingURL=media_767.css.map */

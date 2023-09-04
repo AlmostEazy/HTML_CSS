@@ -1,0 +1,67 @@
+@media (max-width: 767px) {
+  .header__inner {
+    gap: 53%;
+  }
+  .login {
+    display: none;
+  }
+  .basket {
+    display: none;
+  }
+  .page__nav {
+    margin-bottom: 41px;
+    justify-content: center;
+  }
+  .page__nav .current__page {
+    padding-left: initial;
+    width: auto;
+  }
+  .description__cart {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+  }
+  .reviews__items {
+    height: 550px;
+  }
+  .reviews__items .rev__item {
+    gap: 59px;
+  }
+  .reviews__items .rev__item .subscribe {
+    gap: 22px;
+  }
+  .reviews__items .rev__item .subscribe .review__btn {
+    width: 341px;
+    height: 47px;
+  }
+  .reviews__items .rev__item .subscribe .review__btn .subscribe__button .sub__button {
+    width: 96px;
+    height: 47px;
+  }
+  .reviews__items .rev__item .subscribe .subscribe__text .sub__title {
+    line-height: 153%;
+  }
+  .reviews__items .rev__item .subscribe .subscribe__text .sub__subtitle {
+    font-size: 14px;
+    line-height: 153%;
+  }
+  .reviews__items .rev__item .feedback .feedback__text {
+    font-size: 18px;
+  }
+  .reviews__items .rev__item .feedback .feedback__text .text__ital {
+    font-size: 18px;
+  }
+  .reviews__items .rev__back {
+    height: 550px;
+  }
+  .footer__inner {
+    flex-direction: column-reverse;
+    gap: 25px;
+    height: 143px;
+    justify-content: normal;
+  }
+  .footer__inner .rights {
+    padding-bottom: 24px;
+  }
+}/*# sourceMappingURL=media_767.css.map */

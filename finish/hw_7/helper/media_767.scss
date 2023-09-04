@@ -1,0 +1,143 @@
+@media (max-width: 767px) {
+
+    .header__inner {
+        gap: 53%;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .basket {
+        display: none;
+    }
+    
+    .page__nav {
+        flex-direction: column;
+        gap: 21.6%;
+        justify-content: initial;
+
+        .current__page {
+            width: auto;
+            padding-top: 24px;
+        }
+    }
+
+    .description .description__img {
+        margin-top: 85px;
+
+        .descr__img {
+            width: 373px;
+            height: 454px;
+        }
+    }
+
+    .description__arrows {
+        position: absolute;
+    }
+
+    .collections {
+        margin-bottom: 65px;
+
+        .collections__description {
+
+            .collection__title {
+                padding-bottom: 32px;
+            }
+    
+            .collection__subtitle {
+                width: 326px;
+            }
+    
+            .price {
+                padding-bottom: 32px;
+            }
+    
+            .long__devider {
+                width: 175px;
+                margin-bottom: 50px;
+            }
+    
+            .choose__menu {
+                width: 304px;
+                padding-bottom: 64px;
+    
+                .choose__option .choose__text {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    
+    .items {
+        margin-bottom: 64px;
+
+        .items__wrap {
+            flex-wrap: wrap;       
+            gap: 7%;
+        }
+    }
+
+    .reviews__items {
+        height: 550px;
+
+        .rev__item {
+            gap: 59px;
+
+            .subscribe {
+                gap: 22px;
+
+                .review__btn {
+                    width: 341px;
+                    height: 47px;
+
+                    .subscribe__button {
+
+                        .sub__button {
+                            width: 96px;
+                            height: 47px;
+                        }
+                    }
+                }
+
+                .subscribe__text {
+
+                    .sub__title {
+                        line-height: 153%;
+                    }
+
+                    .sub__subtitle {
+                        font-size: 14px;
+                        line-height: 153%;
+                    }
+                }
+            }
+
+            .feedback {
+
+                .feedback__text {
+                    font-size: 18px;
+
+                    .text__ital {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        .rev__back {
+            height: 550px;
+        }
+    }
+
+    .footer__inner {
+        flex-direction: column-reverse;
+        gap: 25px;
+        height: 143px;
+        justify-content: normal;
+
+        .rights {
+            padding-bottom: 24px;
+        }
+    }
+}
