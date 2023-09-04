@@ -149,6 +149,7 @@ body {
   margin-bottom: 31px;
 }
 .description__cart-left .name input {
+  width: 342px;
   height: 43px;
   outline: none;
   padding-left: 16px;
@@ -163,7 +164,7 @@ body {
 .description__cart-left .name input::-webkit-input-placeholder {
   color: #B1B1B1;
 }
-.description__cart-left .name h2 {
+.description__cart-left .name .l_name:first-child {
   color: black;
   font-size: 16px;
   font-style: normal;
@@ -177,6 +178,7 @@ body {
   margin-bottom: 15px;
 }
 .description__cart-left .mail input {
+  width: 342px;
   height: 43px;
   outline: none;
   padding-left: 16px;
@@ -191,7 +193,7 @@ body {
 .description__cart-left .mail input::-webkit-input-placeholder {
   color: #B1B1B1;
 }
-.description__cart-left .mail h2 {
+.description__cart-left .mail .l_mail:first-child {
   color: black;
   font-size: 16px;
   font-style: normal;

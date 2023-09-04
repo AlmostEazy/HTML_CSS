@@ -140,6 +140,7 @@ body {
             margin-bottom: 31px;
 
             input {
+                width: 342px;
                 height: 43px;
                 outline: none;
                 padding-left: 16px;
@@ -152,7 +153,7 @@ body {
                 }
             }
 
-            h2 {
+            .l_name:first-child {
                 @include font (black, 16px, 300);
             }
         }
@@ -164,6 +165,7 @@ body {
             margin-bottom: 15px;
 
             input {
+                width: 342px;
                 height: 43px;
                 outline: none;
                 padding-left: 16px;
@@ -176,7 +178,7 @@ body {
                 }
             }
 
-            h2 {
+            .l_mail:first-child {
                 @include font (black, 16px, 300);
             }
         }

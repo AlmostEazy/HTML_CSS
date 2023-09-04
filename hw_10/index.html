@@ -78,12 +78,18 @@
                 <section class="description">
                     <div class="description__cart">
                         <div class="description__cart-left">
-                            <form id="for__button" action="" method="get">
-                                <label class="name">
-                                    <h2>Your Name</h2>
-                                    <input type="text" placeholder="First Name" required>
-                                    <input type="text" placeholder="Last Name" required>
-                                </label>
+                            <form id="for__button" method="get">
+                                <div class="name">
+                                    <label class="l_name">
+                                        Your Name
+                                    </label>
+                                    <label class="l_name">
+                                        <input type="text" placeholder="First Name" required>
+                                    </label>
+                                    <label class="l_name">
+                                        <input type="text" placeholder="Last Name" required>
+                                    </label>
+                                </div>
                                 <fieldset>
                                     <label class="radiobtn">
                                         <input type="radio" name="radio" class="radio">
@@ -98,11 +104,17 @@
                                         <span>Other</span>
                                     </label>
                                 </fieldset>
-                                <label  class="mail">
-                                    <h2>Login details</h2>
-                                    <input type="email" placeholder="Email" required>
-                                    <input type="password" minlength="8" placeholder="Password" required>
-                                </label>
+                                <div class="mail">
+                                    <label  class="l_mail">
+                                        Login details
+                                    </label>
+                                    <label  class="l_mail">
+                                        <input type="email" placeholder="Email" required>
+                                    </label>
+                                    <label  class="l_mail">
+                                        <input type="password" minlength="8" placeholder="Password" required>
+                                    </label>
+                                </div>
                             </form>
                             <h3>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</h3>
                             <button form="for__button" type="submit">
