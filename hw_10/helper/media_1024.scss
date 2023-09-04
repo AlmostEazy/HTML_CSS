@@ -5,136 +5,86 @@
         gap: 55%;
     }
 
-    .description .description__text .main__title .title {
-        font-size: 44px;
-    }
-    
-    .description .description__text .main__title .lux {   
-        font-size: 24px;
-    }
-    
-    .description .description__text .main__title .lux .fashion {
-        font-size: 24px;
+    .page__nav {
+        margin-bottom: 40px;
+
+        .current__page {
+            padding-left: 2.1%;
+        }
     }
 
-    .description .description__text .rect {
-        height: 92px;
-    }
+    .description__cart {
+        gap: 22px;
 
-    .description .description__text {
-        width: 311px;
-        height: 92px;
-    }
+        &-right {
+            width: 354px;
 
-    .description .description__img {
-        padding-right: 5%;
-    }
+            h2 {
+                font-size: 16px;
+                margin-bottom: 32px;
+            }
 
-    .products .prod__items .products__little__one {
-        width: 232px;
-        height: 168px;
-    }
-    
-    .products .prod__items .products__little__two {
-        width: 232px;
-        height: 168px;
-    }
-    
-    .products .prod__items .products__little__three {
-        width: 232px;
-        height: 168px;
-    }
+            h3 {
+                font-size: 16px;
+                margin-bottom: 22px;
+            }
 
-    .products .prod__items .products__big {
-        width: 735px;
-        height: 116px;
-    }
+            .marketing {
+                h3 {
+                    font-size: 16px;
+                }
 
-    .products {
-        padding-left: calc(50% - 368px);
-        padding-right: calc(50% - 368px);
-        margin-bottom: 110px;
-    }
-
-    .products .prod__items {
-        grid-gap: 19px;
-    }
-
-    .featured__items__text {
-        gap: 3.3px;
-        margin-bottom: 73px;
-    }
-
-    .items {
-        padding-left: calc(50% - 368px);
-        padding-right: calc(50% - 368px);
-        margin-bottom: 33px;
-    }
-
-    .items .items__wrap {
-        grid-gap: 16px;
-    }
-
-    .items__button {
-        margin-bottom: 65px;
-    }
-
-    .features__items {
-        flex-direction: column;
-        gap: 49px;
-    }
-
-    .features__items .feature {
-        padding: 0;
-    }
-
-    .features__items .feature:first-child {
-        padding-top: 48px;
-    }
-
-    .features__items .feature:last-child {
-        padding-bottom: 64px;
-    }
-
-    .reviews__items .rev__back {
-        width: auto;
-        height: 693px;
-        margin: 0 -420px;
+                h3:nth-child(2)::before {
+                    padding-top: 11px;
+                }
+                    
+            }
+        }
     }
 
     .reviews__items {
         width: 100%;
         height: 614px;
-    }
 
-    .reviews__items .rev__item {
-        flex-direction: column;
-        align-items: center;
-        gap: 75px;
-    }
+        .rev__back {
+            width: auto;
+            height: 693px;
+            margin: 0 -420px;
+        }
 
-    .reviews__items .rev__item .feedback {
-        padding-top: 64px;
-    }
+        .rev__item {
+            flex-direction: column;
+            align-items: center;
+            gap: 75px;
 
-    .reviews__items .rev__item .subscribe {
-        padding-top: 0;
-        gap: 27px;
+            .feedback {
+                padding-top: 64px;
+            }
+
+            .subscribe {
+                padding-top: 0;
+                gap: 27px;
+
+                .subscribe__text {
+
+                    .sub__title {
+                        line-height: 162%;
+                    }
+
+                    .sub__subtitle {
+                        line-height: 162%;
+                    }
+                }
+            }
+        }
+    
     }
 
     .footer__inner {
         gap: 305px;
-    }
 
-    .footer__inner .rights {
-        width: 251px;
-    }
-
-    .reviews__items .rev__item .subscribe .subscribe__text .sub__title {
-        line-height: 162%;
-    }
-    
-    .reviews__items .rev__item .subscribe .subscribe__text .sub__subtitle {
-        line-height: 162%;
+        .rights {
+            width: 251px;
+        }
     }
 }

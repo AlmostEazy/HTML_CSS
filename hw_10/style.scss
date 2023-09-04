@@ -254,7 +254,7 @@ body {
     }
 
     &-right {
-        width: 40.75%;
+        width: 652px;
 
         h2 {
             @include font (black, 24px, 300);
@@ -277,6 +277,14 @@ body {
                 &::before {
                     content: url(./img/Vector.svg);
                     padding-right: 23px;
+                }
+            }
+
+            h3:nth-child(2) {
+                display: flex;
+
+                span {
+                    display: inline-block;
                 }
             }
         }
@@ -443,3 +451,7 @@ body {
         fill: white;
     }
 }
+
+@import './helper/media_1024.scss';
+
+@import './helper/media_767.scss';
